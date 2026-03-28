@@ -29,13 +29,37 @@ The Gradio demo provides a point‑and‑click interface to generate laser maps 
    ```bash
    pip install -r requirements.txt
    ```
+### Installation on macOS
+
+1. Install the latest version of [Python](https://www.python.org/downloads/)
+2. Download this project and copy it to your Documents folder.
+3. Change the directory in Terminal
+   ```bash
+   cd ~/Documents/lasercyano-main/
+   ```
+4. Create a virtual environment:
+   ```bash
+   python3 -m venv venv
+   ```
+5. Activate the virtual environment
+   ```bash
+   source venv/bin/activate
+   ```
+6. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+7. Update pip
+   ```bash
+   pip install --upgrade pip
+   ```
 
 ### Running the Application
 
 ```bash
 python app.py
 ```
-open browser to http://localhost:7860  
+open browser to http://localhost:7860
 
 ### Interface Walkthrough
 | Control | Description |
